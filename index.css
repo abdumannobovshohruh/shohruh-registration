@@ -1,0 +1,36 @@
+body{
+    background: url(img/sdaasd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: rgb(88, 78, 78);
+    text-align: center;
+}
+.box{
+    color: aqua;
+}
+form{
+    text-align: center;
+    /* border: 2px solid red; */
+    width: 400px;
+    margin: auto;
+    padding: 10px ;
+    background:url(img/dasd.jpg) ;
+    color: antiquewhite;
+    border-radius: 10px;
+}
+form input{
+    padding: 10px 30px;
+    outline: none;
+    border-radius: 20px 0 20px 0 ;
+
+}
+form input:focus{
+    border-radius: 0 20px 0 20px;
+    transition: 2s;
+}
+.btn{
+    background-color:aqua;
+    border-radius: none;
+}
